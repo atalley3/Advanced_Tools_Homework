@@ -84,4 +84,26 @@ p {
 .primary-link {
   background-color: var(--primary-color);
   color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.primary-link:hover {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .small-launch-link {
+    display: block;
+    margin: 0 20px auto;
+    width: 90%;
+    height: auto;
+    color: white;
+  }
 }
